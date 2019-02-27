@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "migrate": "node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.16.0",
+    "dotenv": "^6.2.0",
+    "node-fetch": "^2.3.0"
+  }
+}
