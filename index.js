@@ -78,7 +78,7 @@ async function main () {
         console.log(JSON.stringify(payload, null, 2))
         console.log('')
       } else {
-        await octokit.issues.create(payload)
+        await github.issues.create(payload)
       }
     }
   }
